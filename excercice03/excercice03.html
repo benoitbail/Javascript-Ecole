@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title>JavaScript program to calculate multiplication and division of two numbers </title>
+<style type="text/css">
+body {margin: 30px;}
+
+
+
+</style> 
+<script>function Ticket ()
+    {
+            num1 = document.getElementById("oneNumber").value;
+            num2 = document.getElementById("twodNumber").value;
+            num3 = document.getElementById("threeNumber").value;
+            num4 = document.getElementById("fourNumber").value;
+            num5 = document.getElementById("fiveNumber").value;
+            num6 = document.getElementById("sixNumber").value;
+            num7 = document.getElementById("Total_HT").value;
+            num8 = document.getElementById("TVA").value;
+            num9 = document.getElementById("Total_TTC").value;
+            document.getElementById("result").innerHTML = num1 * num4; num2 * num5; num3 *num6;
+            document.getElementById("result").innerHTML = (num1 * num4) + (num2 * num5) + (num3 * num6)
+    }
+    
+ 
+</script>
+</head>
+<body>
+
+<form>
+oneNumber : <input type="text" id="oneNumber" /><br>
+twodNumber : <input type="text" id="twodNumber" /><br>
+<input type="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" onClick="divideBy()" Value="Divide" />
+</form>
+<p>The Result is : <br>
+<span id = "result"></span>
+</p>
+</body>
+</html>
